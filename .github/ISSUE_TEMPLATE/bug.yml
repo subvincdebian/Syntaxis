@@ -1,0 +1,32 @@
+name: 'Bug report'
+description: 'Report a reproducible problem in Syntaxis.'
+body:
+  - type: markdown
+    attributes:
+      value: 'Remove credentials and personal data from screenshots and logs. Please report vulnerabilities privately through Security.'
+  - type: input
+    id: area
+    attributes:
+      label: 'Affected area'
+      description: 'For example: EN/UK navigation, interactive demos, project brief composer, or prerendering.'
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 'Steps to reproduce'
+      description: 'List the steps from opening the page or starting the app. Use test data.'
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 'Expected and actual behavior'
+      description: 'What did you expect, and what happened instead?'
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 'Environment'
+      description: 'Include the page URL or route, locale, browser, OS, and viewport if the layout is affected.'
