@@ -3,6 +3,6 @@ contact_links:
   - name: Questions and ideas
     url: https://github.com/subvincdebian/Syntaxis/discussions
     about: Ask questions and share ideas with the project community.
-  - name: "Private vulnerability report"
+  - name: 'Private vulnerability report'
     url: https://github.com/subvincdebian/Syntaxis/security/advisories/new
-    about: "Send a vulnerability report privately through GitHub."
+    about: 'Send a vulnerability report privately through GitHub.'
